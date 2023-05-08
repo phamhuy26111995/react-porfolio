@@ -1,7 +1,7 @@
 import React from "react";
-import { BsArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { Link } from "react-scroll";
 
 const services = [
   {
@@ -41,7 +41,9 @@ const Services = () => {
             <h3 className="h3 max-w-[455px] mb-16">
               I am a Web Developer with 2 years of experience
             </h3>
+            <Link smooth="true" spy="true" to="work">
             <button className="btn btn-sm">See my work</button>
+          </Link>
           </motion.div>
           {/* {services} */}
           <motion.div

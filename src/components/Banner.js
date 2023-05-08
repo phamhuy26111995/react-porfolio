@@ -1,6 +1,6 @@
 import React from "react";
 import Blob from "./Blob";
-import JavaFile from "../assets/java.pdf";
+import MyCV from "../assets/HuyPhamCV_2023.docx";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -65,7 +65,7 @@ const Banner = () => {
               <Link smooth="true" spy="true" to="contact">
                 <button className="btn btn-lg">Contact me</button>
               </Link>
-              <a href={JavaFile} className="text-gradient btn-link" download>
+              <a href={MyCV} className="text-gradient btn-link" download>
                 Download My CV
               </a>
             </motion.div>
