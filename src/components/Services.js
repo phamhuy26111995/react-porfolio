@@ -19,7 +19,7 @@ const services = [
   {
     name: "Deploy product",
     description:
-      "With all my knowledge about the system, my work is not in development. I also can deploy my product. Although my expertise in this major is still limited, I try to get better day by day",
+      "With all my knowledge about the system, my work is not only in development but also can deploy my product. Although my expertise in this major is still limited, I try to get better day by day",
     link: "Learn more",
   },
 ];
