@@ -31,13 +31,13 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me</h2>
             <h3 className="h3">
-              I am a Back-end and Front-end Developer with 2 years of experience
+              I am a Back-end and Front-end Developer
             </h3>
             <p className="mb-6">{ABOUT_CONTENT}</p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={2} duration={4} /> : null}
+                  {inView ? <CountUp start={0} end={2} duration={2} /> : null}
                 </div>
                 <div className="font-family text-sm tracking-[2px]">
                   Years of <br />
@@ -47,7 +47,7 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={4} duration={4} /> : null}
+                  {inView ? <CountUp start={0} end={4} duration={2} /> : null}
                 </div>
                 <div className="font-family text-sm tracking-[2px]">
                   Years of <br />
@@ -57,7 +57,7 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}+
+                  {inView ? <CountUp start={0} end={10} duration={2} /> : null}+
                 </div>
                 <div className="font-family text-sm tracking-[2px]">
                   Project <br />

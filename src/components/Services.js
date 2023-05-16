@@ -13,13 +13,13 @@ const services = [
   {
     name: "Front-end React Development",
     description:
-      "Although my experience in front-end development is still less, I try to improve my skills day by day to bring the best experience in UI/UX for my users ",
+      "Front end writes code to convert data from Back end & display it to the user in a friendly way",
     link: "Learn more",
   },
   {
     name: "Deploy product",
     description:
-      "With all my knowledge about the system, my work is not only in development but also can deploy my product. Although my expertise in this major is still limited, I try to get better day by day",
+      "With all my knowledge about the system, my work is not only in development but also can deploy my product to QA environment",
     link: "Learn more",
   },
 ];
@@ -39,7 +39,7 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I am a Web Developer with 2 years of experience
+              My Responsibilities
             </h3>
             <Link smooth="true" spy="true" to="work">
             <button className="btn btn-sm">See my work</button>

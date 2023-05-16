@@ -1,6 +1,6 @@
 import React from "react";
 import Blob from "./Blob";
-import MyCV from "../assets/HuyPhamCV_2023.docx";
+import MyCV from "../assets/HuyPham_CV_2023.pdf";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -48,12 +48,15 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I am a Full-stack developer with two years of experience as Web
-              Developer and four years working in the IT industry. With my
-              knowledge, I am working to create a product and want to make my
-              product the best possible. I also spend my free time learning new
-              technologies and making small projects to improve and upgrade
-              myself. Therefore, my goal is to be the best version of myself
+              I graduated from the Information Technology field, specializing in
+              System Administration and Network Management. However, during my
+              work experience, I realized that system administration relied
+              mainly on the software created by others based on their logic.
+              Wanting to improve my ability and use my strength in logic skills,
+              I decided to change to Software Development to become the one who
+              actively creates products. My career goal is to become a highly
+              skilled Solution Architect, taking charge of designing and
+              implementing innovative solutions.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
